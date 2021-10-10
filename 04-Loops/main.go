@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	//Loops type 1:
-	for i := 0 ; i < 3 ;i++ {
+	for i := 0; i < 3; i++ {
 		fmt.Println(i)
 	}
 

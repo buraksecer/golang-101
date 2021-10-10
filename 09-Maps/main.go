@@ -10,7 +10,7 @@ func main() {
 	employee = make(map[string]int)
 	fmt.Println(employee)
 
-	employee["Mark"] = 31// Update element
+	employee["Mark"] = 31 // Update element
 	employee["Sandy"] = 40
 	fmt.Println(employee)
 	fmt.Println(employee["Mark"])
@@ -18,6 +18,6 @@ func main() {
 	employee["Rocky"] = 30 // Add element
 	fmt.Println(employee)
 
-	delete(employee, "Mark")// Delete element
+	delete(employee, "Mark") // Delete element
 	fmt.Println(employee)
 }

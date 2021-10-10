@@ -41,7 +41,7 @@ func main() {
 	switch today.Day() {
 	case 9:
 		fmt.Println("A")
-		fallthrough//:The fallthrough keyword used to force the execution flow to fall through the successive case block
+		fallthrough //:The fallthrough keyword used to force the execution flow to fall through the successive case block
 	case 10:
 		fmt.Println("B")
 	case 11:
@@ -55,7 +55,7 @@ func main() {
 	}
 
 	//Switch-case type 4:
-	switch  {
+	switch {
 	case today.Day() > 5:
 		fmt.Println("Go to library.")
 	case today.Day() <= 10:

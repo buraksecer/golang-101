@@ -49,11 +49,11 @@ var xFloat64 float64 = 3.11
 
 //Complex numbers which contain float32 as a real and imaginary component.
 
-var XComplex64 complex64 = (1+1i)
+var XComplex64 complex64 = (1 + 1i)
 
 //Complex numbers which contain float64 as a real and imaginary component.
 
-var XComplex128 complex128 = (2+2i)
+var XComplex128 complex128 = (2 + 2i)
 
 //Numbers End
 

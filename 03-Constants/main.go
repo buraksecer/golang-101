@@ -5,7 +5,7 @@ import "fmt"
 const FILENAME string = "/ROOT"
 const NOTFOUND = 404
 const (
-	ERROR = 500
+	ERROR   = 500
 	SUCCESS = 200
 )
 

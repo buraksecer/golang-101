@@ -14,8 +14,8 @@ func main() {
 	fmt.Println(strSlice)
 
 	//Slice can be created using the built-in function make. When you use make, one option you have is to specify the length of the slice. When you just specify the length, the capacity of the slice is the same.
-	intSlice = make([]int, 10)//when length and capacity is same
-	strSlice = make([]string, 10, 20)//when length and capacity is different
+	intSlice = make([]int, 10)        //when length and capacity is same
+	strSlice = make([]string, 10, 20) //when length and capacity is different
 	fmt.Printf("intSlice \tLen: %v \tCap: %v\n", len(intSlice), cap(intSlice))
 	fmt.Printf("strSlice \tLen: %v \tCap: %v\n", len(strSlice), cap(strSlice))
 
@@ -56,7 +56,7 @@ func main() {
 	fmt.Printf("[Slice:A] Length is %d Capacity is %d\n", len(o), cap(a))
 
 	b := make([]int, 5, 10) // Create a bigger slice
-	copy(b, o) // Copy function
+	copy(b, o)              // Copy function
 	fmt.Printf("[Slice:B] Length is %d Capacity is %d\n", len(o), cap(b))
 
 	var slice1 = []string{"india", "japan", "canada"}
