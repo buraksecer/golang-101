@@ -50,4 +50,10 @@ func main() {
 	for range "12345" {
 		fmt.Println("*")
 	}
+
+	//Loops type 9: (slice)
+	s := []string{"Burak", "Banu"}
+	for i, v := range s {
+		fmt.Println(i, v)
+	}
 }
